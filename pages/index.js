@@ -5,6 +5,14 @@ import Header from "../Components/Header";
 import BlogHeader from "../Components/BlogHeader";
 import { getAllBlogPosts, getAllTopics } from "../Lib/Data";
 
+/**
+ * @description Initializes by retrieving lists of blog posts and topics using external
+ * functions, then returns an object containing these lists as props to be statically
+ * generated at build time.
+ * 
+ * @returns {object} Used to populate props for a React component. This object contains
+ * two key-value pairs: "blogs" and "topics", where "blogs" and "topics" are arrays.
+ */
 export const getStaticProps = () => {
   const allBlogs = getAllBlogPosts();
   const allTopics = getAllTopics();
@@ -16,6 +24,23 @@ export const getStaticProps = () => {
   };
 };
 
+/**
+ * @description Renders a home page with metadata and content, including a navigation
+ * bar (`Navbar`), header, blog headers (`BlogHeader`) for published blogs, and footer.
+ * It accepts two props: `blogs`, an array of blog data, and `topics`, an array of
+ * topic names.
+ * 
+ * @param {object} obj - Expected to contain two properties: `blogs` and `topics`.
+ * The value of `blogs` is an array of blog objects, while `topics` likely contains
+ * an array or other collection of topics related to software development.
+ * 
+ * @param {object} obj.blogs - Intended for rendering blog posts.
+ * 
+ * @param {object} obj.topics - Used to pass topics related to software development.
+ * 
+ * @returns {JSX.Element} A React component that consists of several elements: Head,
+ * div with Navbar, Header, flex container with mapped blog posts, and Footer.
+ */
 export default function Home({ blogs, topics }) {
   return (
     <>
