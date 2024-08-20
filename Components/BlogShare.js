@@ -12,7 +12,7 @@ function BlogShare({ data }) {
             target="_blank"
             href={`https://twitter.com/intent/tweet?text=${
               data.Title
-            } by @soumyajit4419
+            } by @austinL394
             &url=blogs.soumya-jit.tech/blogs/${String(
               data.Title.split(" ").join("-").toLowerCase()
             )}

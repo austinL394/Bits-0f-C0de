@@ -11,7 +11,7 @@ function Footer() {
           <p className="text-gray-50 text-sm text-center sm:text-left">
             © {year} Bits-Of-C0de —
             <a
-              href="https://twitter.com/soumyajit4419"
+              href="https://twitter.com/austinL394"
               rel="noopener noreferrer"
               className="text-gray-50 ml-1"
               target="_blank"
@@ -22,7 +22,7 @@ function Footer() {
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <a
               className="text-gray-50"
-              href="https://twitter.com/soumyajit4419"
+              href="https://twitter.com/austinL394"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -30,7 +30,7 @@ function Footer() {
             </a>
             <a
               className="ml-4 text-gray-50"
-              href="https://github.com/soumyajit4419"
+              href="https://github.com/austinL394"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -38,7 +38,7 @@ function Footer() {
             </a>
             <a
               className="ml-4 text-gray-50"
-              href="https://www.instagram.com/soumyajit4419/"
+              href="https://www.instagram.com/austinL394/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -46,7 +46,7 @@ function Footer() {
             </a>
             <a
               className="ml-4 text-gray-50"
-              href="https://www.linkedin.com/in/soumyajit4419/"
+              href="https://www.linkedin.com/in/austinL394/"
               rel="noopener noreferrer"
               target="_blank"
             >
