@@ -1,6 +1,15 @@
 import { SiTwitter, SiGithub, SiInstagram } from "react-icons/si";
 import { FiLinkedin } from "react-icons/fi";
 
+/**
+ * @description Creates a footer section with copyright information and social media
+ * links. It gets the current year and displays it along with the name "Bits-Of-C0de"
+ * and a Twitter handle. The footer is then rendered with flexbox layout and uses
+ * various icons for social media platforms.
+ * 
+ * @returns {JSX.Element} A React component that represents an HTML footer element
+ * with a complex structure containing multiple child elements and nested tags.
+ */
 function Footer() {
   const date = new Date();
   const year = date.getFullYear();
